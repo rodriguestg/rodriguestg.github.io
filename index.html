@@ -3,22 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>    
+        .titulo {
+            font-family:Montserrat, sans-serif;
+            font-weight: 600;
+            letter-spacing: -1px;
+            color: rgb(220, 127, 155);
+
+        }
+
+        .dadoslocais {
+            font-weight: 600;
+        }
+
+        .indice {
+            font-weight: 500;
+            color: rgb(220, 127, 155);
+            text-decoration: none;
+            line-height: 22px;
+        }
+        
+        #eu {
+            border-radius: 100%;
+            width: 250px;
+        }
+        
+        .tamanhoc {
+            font-size: 1.4em;
+            line-height: 0px;
+        }
+
+        .tamanhoc2 {
+            font-size: 1.4em;
+            line-height: 25px;
+
+        }
+
+        body {
+            font-family: Montserrat, sans-serif;
+            background-color: rgb(47, 47, 47);
+            color: white;
+        }
+        </style>
+
 </head>
 <body>
-    <h1>Gabriel Rodrigues da Silva</h1>
-    <img id="eu" src="/20220212223809_IMG_9788.jpg" alt="Gabriel Rodrigues" width="400px">
     <ol>
-        <li><a href="#nome">Quem sou eu</a></li>
-        <li><a href="#conhecimento">Meus conhecimentos</a></li>
-        <li><a href="#estudo">Áreas em desenvolvimento</a></li>
+        <li><a  class="indice" href="#nome">Quem sou eu</a></li>
+        <li><a  class="indice" href="#conhecimento">Meus conhecimentos</a></li>
+        <li><a  class="indice" href="#estudo">Áreas em desenvolvimento</a></li>
     </ol>
+    <br>
+    <h1 class="titulo">Gabriel Rodrigues da Silva</h1>
+    <img id="eu" src="/20220212223809_IMG_97882.png" alt="Gabriel Rodrigues" width="400px">
+
     <p id="nome">
-        Olá, meu nome é Gabriel, sou brasileiro e moro em Mauá/SP.
+        Olá, meu nome é Gabriel, sou <span class="dadoslocais">brasileiro</span> e moro em <span class="dadoslocais">Mauá/SP</span>.
     </p>
-    <h4 id="conhecimento"><em>Tenho conhecimento em:</em></h4>
+    <h4 class="tamanhoc" id="conhecimento"><em>Tenho conhecimento em:</em></h4>
     <ul>
-        <li>CSS</li>
-        <li>Moodle</li>
+        <li class="tamanhoc2">CSS</li>
+        <li class="tamanhoc2">Moodle</li>
     </ul>
     <h4 id="estudo"><strong>Atualmente estudo na @betrybe os conteúdos de:</strong></h4>
     <ul>
