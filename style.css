@@ -1,0 +1,40 @@
+.titulo {
+    font-family:Montserrat, sans-serif;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: rgb(220, 127, 155);
+
+}
+
+.dadoslocais {
+    font-weight: 600;
+}
+
+.indice {
+    font-weight: 500;
+    color: rgb(220, 127, 155);
+    text-decoration: none;
+    line-height: 22px;
+}
+
+#eu {
+    border-radius: 100%;
+    width: 250px;
+}
+
+.tamanhoc {
+    font-size: 1.4em;
+    line-height: 0px;
+}
+
+.tamanhoc2 {
+    font-size: 1.4em;
+    line-height: 25px;
+
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
