@@ -3,6 +3,7 @@
     font-weight: 600;
     letter-spacing: -1px;
     color: rgb(220, 127, 155);
+    text-align: center;
 
 }
 
@@ -20,6 +21,15 @@
 #eu {
     border-radius: 100%;
     width: 250px;
+    float: left;
+    padding: 10px;
+    background-color: white;
+    margin: 10px 30px;
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
 }
 
 .tamanhoc {
@@ -37,4 +47,21 @@ body {
     font-family: Montserrat, sans-serif;
     background-color: rgb(47, 47, 47);
     color: white;
+    padding: 3%;
 }
+
+ul li:nth-child(odd) {
+    background-color: rgb(43, 43, 43);
+    font-weight: bold;
+}
+
+#nome {
+    font-size: 30px;
+    position: absolute;
+    top: 70px;
+    left: 350px;
+}
+
+/* div {
+    border: 1px solid rgb(255, 255, 255);
+} */
