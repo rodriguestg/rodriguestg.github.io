@@ -1,6 +1,7 @@
 {
   "name": "trybe-gabriel",
   "version": "0.1.0",
+  "homepage": "https://rodriguestg.github.io/portifolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,7 +12,6 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://rodriguestg.github.io/portifolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
