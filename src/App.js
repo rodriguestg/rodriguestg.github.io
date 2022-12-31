@@ -3,9 +3,9 @@ import InitialPage from './pages/InitialPage';
 
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
       <InitialPage />
-    </div>
+    // </div>
   );
 }
 

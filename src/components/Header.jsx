@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
+import './css/Header.css';
 
 class Header extends Component {
   render() {
     return (
-    <header>
-      <ol>
-          <li><a  className="indice" href="#nome">Home</a></li>
-          <li><a  className="indice" href="#estudo">Minha história</a></li>
-          <li><a  className="indice" href="#estudo">Skills</a></li>
-          <li><a  className="indice" href="#estudo">Portifólio</a></li>
-          <li><a  className="indice" href="#estudo">Estava me procurando?</a></li>
-      </ol>
+    <header className="indice">
+      <a id="home" className="topbar" href="#nome">Home</a>
+      <a id="about" className="topbar" href="#estudo">Minha história</a>
+      <a id="skills" className="topbar" href="#estudo">Skills</a>
+      <a id="portfolio" className="topbar" href="#estudo">Portifólio</a>
+      <a id="contact" className="topbar" href="#estudo">Estava me procurando?</a>
       <br/>
     </header>
   )
