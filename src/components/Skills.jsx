@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Skills extends Component {
   render() {
     return (
-      <section>
+      <section className="box">
         <h4 className="tamanhoc" id="conhecimento"><em>Tenho conhecimento em:</em></h4>
         <ul>
             <li className="tamanhoc2">CSS</li>

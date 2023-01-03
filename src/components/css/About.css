@@ -1,0 +1,39 @@
+#aboutHeader {
+  width: 40%;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#icon {
+  width: 25px;
+}
+
+#titleName {
+  font-size: 75px;
+  color: #FFD54E;
+  font-family:Montserrat, sans-serif;
+  font-weight: 900;
+  letter-spacing: -1px;
+}
+
+#description {
+  font-size: 25px;
+  max-width: 90%;
+}
+
+#profile {
+  /* background-color:#FFD54E; */
+  border-radius: 100%;
+  margin: 10px 30px;
+  padding: 4px;
+  width: 350px;
+}
+
+.image-container {
+  position: relative;
+}
