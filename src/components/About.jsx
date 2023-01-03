@@ -9,14 +9,14 @@ class About extends Component {
       <div id="aboutHeader">
         <h1 id="titleName">Gabriel Rodrigues</h1>
         <p id="description">
-          Olá, seja bem-vindo(a)! Como vai? Prazer, sou um 
-          <span className="dadoslocais">Desenvolvedor Web Front-End</span> e moro em Mauá/SP,
+          Olá, seja bem-vindo(a)! Como vai? Prazer, sou um
+          <span className="dadoslocais"> Desenvolvedor Web Front-End</span> e moro em Mauá/SP,
           <span className="dadoslocais"> vamos se conectar? </span>
           <a
           href="https://www.linkedin.com/in/gabriel-rodrigues-t"
           target="_blank"
           rel="noopener noreferrer">
-            <img src="https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/linkedin-icon-18-256.png" alt="linkedin" id="icon" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin" id="icon" />
           </a>.
         </p>
       </div> 

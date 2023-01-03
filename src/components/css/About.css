@@ -14,23 +14,26 @@
 }
 
 #titleName {
+  background-image: linear-gradient(to bottom right, #585C72, #30323D);
   font-size: 75px;
-  color: #FFD54E;
   font-family:Montserrat, sans-serif;
   font-weight: 900;
-  letter-spacing: -1px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #description {
+  color: #585C72;
   font-size: 25px;
   max-width: 90%;
+  padding: 0 15px;
 }
 
 #profile {
-  /* background-color:#FFD54E; */
+  background-image: linear-gradient(to bottom, #585C72, #8b1f12);
   border-radius: 100%;
-  margin: 10px 30px;
-  padding: 4px;
+  margin: 5px 20px;
+  padding: 6px;
   width: 350px;
 }
 
