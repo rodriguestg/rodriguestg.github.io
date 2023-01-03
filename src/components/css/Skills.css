@@ -1,0 +1,28 @@
+.boxSkills {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.tamanhoc {
+  background-image: linear-gradient(to bottom right, #585C72, #30323D);
+  background-clip: text;
+  font-size: 50px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tamanhoc2 {
+  font-size: 1.4em;
+  line-height: 25px;
+}
+
+ul li:nth-child(odd) {
+  background-color: rgb(43, 43, 43);
+  font-weight: bold;
+}

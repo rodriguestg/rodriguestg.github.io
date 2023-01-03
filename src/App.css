@@ -1,27 +1,7 @@
-.dadoslocais {
-  font-weight: 600;
-}
-
-.tamanhoc {
-  font-size: 1.4em;
-  line-height: 0px;
-}
-
-.tamanhoc2 {
-  font-size: 1.4em;
-  line-height: 25px;
-
-}
-
 body {
   font-family: Montserrat, sans-serif;
   background-color: #FFDE80;
   color: white;
-}
-
-ul li:nth-child(odd) {
-  background-color: rgb(43, 43, 43);
-  font-weight: bold;
 }
 
 /* div {

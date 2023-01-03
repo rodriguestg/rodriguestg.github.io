@@ -10,8 +10,8 @@ class About extends Component {
         <h1 id="titleName">Gabriel Rodrigues</h1>
         <p id="description">
           Olá, seja bem-vindo(a)! Como vai? Prazer, sou um
-          <span className="dadoslocais"> Desenvolvedor Web Front-End</span> e moro em Mauá/SP,
-          <span className="dadoslocais"> vamos se conectar? </span>
+          <span className="bold"> Desenvolvedor Web Front-End</span> e moro em Mauá/SP,
+          <span className="bold"> vamos se conectar? </span>
           <a
           href="https://www.linkedin.com/in/gabriel-rodrigues-t"
           target="_blank"
