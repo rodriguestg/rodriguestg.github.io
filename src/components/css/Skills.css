@@ -1,8 +1,10 @@
 .boxSkills {
-  align-items: center;
+  align-content: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 20px 0;
 }
 
@@ -18,11 +20,17 @@
 }
 
 .tamanhoc2 {
-  font-size: 1.4em;
-  line-height: 25px;
+  background-color: #1d1e1b;
+  border-radius: 25px;
+  color: #FFDE80;
+  font-size: 30px;
+  margin: 5px;
+  padding: 35px;
 }
 
-ul li:nth-child(odd) {
-  background-color: rgb(43, 43, 43);
-  font-weight: bold;
+.boxTech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
 }
