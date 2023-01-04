@@ -7,7 +7,6 @@ class CardsProject extends Component {
     const { data } = this.props;
     return (
         <div className="boxTech">
-    
           {
             data.map((project, index) =>
               <Link className="tamanhoc2" to={ project.link } key={ index }>

@@ -9,6 +9,9 @@ import Contact from './pages/Contact';
 
 class App extends React.Component {
   render() {
+    const listProjects = [
+      { path: "mongodb", elem: <InitialPage /> }
+    ]
   return (
     <BrowserRouter>
       <Routes>
@@ -17,6 +20,11 @@ class App extends React.Component {
         <Route path="/skills" element={ <SkillsPage /> } />
         <Route path="/portfolio" element={ <Portfolio /> } />
         <Route path="/contact" element={ <Contact /> } />
+        {
+        listProjects.map((project) =>
+          <Route path={ project.path } element={ project.elem } />
+        )
+        }
       </Routes>
      </BrowserRouter>
   );

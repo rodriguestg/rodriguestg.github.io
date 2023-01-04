@@ -9,10 +9,9 @@
 }
 
 .tamanhoc {
-  background-image: linear-gradient(to bottom right, #585C72, #30323D);
+  background-image: linear-gradient(to bottom right, #545454, #30323D);
   background-clip: text;
-  font-size: 50px;
-  font-family: Montserrat, sans-serif;
+  font-size: 40px;
   font-weight: 400;
   margin-bottom: 20px;
   -webkit-background-clip: text;
@@ -20,7 +19,7 @@
 }
 
 .tamanhoc2 {
-  background-color: #1d1e1b;
+  background-color: #30323D;
   border-radius: 25px;
   color: #FFDE80;
   font-size: 30px;
@@ -32,5 +31,5 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1600px;
 }

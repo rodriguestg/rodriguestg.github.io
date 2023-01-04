@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Projects from '../components/Projects';
+import { projectsList } from './database';
 
 class Portfolio extends Component {
   render() {
     return (
     <>
       <Header />
-      <Projects />
+      <Projects projects={ projectsList }/>
       <Footer />
     </>
   )
