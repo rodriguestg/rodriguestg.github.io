@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './css/Skills.css'
+import CardsSkills from './CardsSkills';
+
 
 class Skills extends Component {
   render() {
@@ -8,21 +10,13 @@ class Skills extends Component {
     return (
       <section className="boxSkills">
         <div className="boxTech">
-          <h4 className="tamanhoc" id="conhecimento"><strong>Tenho conhecimento em:</strong></h4>        
-          {
-            techs.map((tech) => 
-              <span className="tamanhoc2">{ tech }</span>
-            )
-          }
+          <h4 className="tamanhoc" id="conhecimento"><strong>Tenho conhecimento em:</strong></h4>      
+            <CardsSkills data={ techs } />
         </div>
         <div className="boxTech">
           <h4 className="tamanhoc" id="estudo"><strong>Atualmente estudo na @betrybe os conteúdos de:</strong></h4>
           <div className="boxTech">
-            {
-              skills.map((skill) => 
-                <span className="tamanhoc2">{ skill }</span>
-              )
-            }
+            <CardsSkills data={ skills } />
           </div>
         </div>
       </section>

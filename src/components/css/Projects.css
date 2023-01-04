@@ -1,0 +1,17 @@
+a.tamanhoc2 {
+  max-width: 300px;
+}
+
+.card-name {
+  font-weight: bold;
+}
+
+.card-describe {
+  font-size: 20px;
+}
+
+a.tamanhoc2:hover {
+  background-color: #ffffff;
+  transition: 0.4s;
+  color: #5C80BD;
+}
