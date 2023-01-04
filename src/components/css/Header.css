@@ -11,6 +11,11 @@
   padding: 0 9px;
 }
 
+.topbar:hover {
+  color: #EB5C7C;
+  transition: 1s;
+}
+
 a {
   text-decoration: none;
 }
