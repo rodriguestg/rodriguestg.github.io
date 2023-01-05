@@ -6,12 +6,10 @@ import AboutPage from './pages/AboutPage';
 import SkillsPage from './pages/SkillsPage';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import { listProjects } from './db';
 
 class App extends React.Component {
   render() {
-    const listProjects = [
-      { path: "mongodb", elem: <InitialPage /> }
-    ]
   return (
     <BrowserRouter>
       <Routes>
