@@ -1,8 +1,16 @@
-#aboutHeader {
+#about-header {
   width: 40%;
 }
 
-.box {
+#about-header-2 {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-about {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -13,7 +21,7 @@
   width: 25px;
 }
 
-#titleName {
+#title-name {
   background-image: linear-gradient(to bottom right, #585C72, #30323D);
   font-size: 75px;
   font-family:Montserrat, sans-serif;
@@ -43,4 +51,9 @@
 
 .bold {
   font-weight: 600;
+}
+
+.box-from-left-about {
+  width: 100%;
+  padding: 15px;
 }

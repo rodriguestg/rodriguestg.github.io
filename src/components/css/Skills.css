@@ -1,35 +1,15 @@
-.boxSkills {
-  align-content: center;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px 0;
+.box-end-right-initial {
+  display: inline;
 }
 
-.tamanhoc {
-  background-image: linear-gradient(to bottom right, #545454, #30323D);
-  background-clip: text;
-  font-size: 40px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.box-child-initial {
+  justify-content: start;
 }
 
-.tamanhoc2 {
-  background-color: #30323D;
-  border-radius: 25px;
-  color: #FFDE80;
-  font-size: 30px;
-  margin: 5px;
-  padding: 35px;
+.box-from-left-initial {
+  width: 40%;
 }
 
-.boxTech {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1600px;
+.box-end-right-initial {
+  display: inline-block;
 }

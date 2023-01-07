@@ -6,7 +6,7 @@ import AboutPage from './pages/AboutPage';
 import SkillsPage from './pages/SkillsPage';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import { listProjects } from './db';
+import { projectsList } from './db';
 
 class App extends React.Component {
   render() {
@@ -19,8 +19,8 @@ class App extends React.Component {
         <Route path="/portfolio" element={ <Portfolio /> } />
         <Route path="/contact" element={ <Contact /> } />
         {
-        listProjects.map((project) =>
-          <Route path={ project.path } element={ project.elem } />
+        projectsList.map((project) =>
+          <Route path={ project.link } element={ project.elem } />
         )
         }
       </Routes>

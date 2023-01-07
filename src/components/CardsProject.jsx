@@ -6,10 +6,10 @@ class CardsProject extends Component {
   render() {
     const { data } = this.props;
     return (
-        <div className="boxTech">
+        <div className="box-child">
           {
             data.map((project, index) =>
-              <Link className="tamanhoc2" to={ project.link } key={ index }>
+              <Link className="tags-default card-project btn-black" to={ project.link } key={ index }>
                 <span className="card-name">{ project.name }</span>
                 <br />
                 <span className="card-describe">{ project.describe }</span>

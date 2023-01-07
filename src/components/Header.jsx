@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
   render() {
     return (
-    <header className="indice">
+    <header className="index">
       <Link to="/">
         <p id="home" className="topbar" href="#nome">Home</p>
       </Link>

@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
+import CardsProject from '../components/CardsProject';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Projects from '../components/Projects';
-import { projectsList } from './data';
+import { projectsList } from '../db';
 
 class Portfolio extends Component {
   render() {
     return (
     <>
       <Header />
-      <Projects projects={ projectsList }/>
+      <section className="box-father">
+        <div className="box-child">
+          <h4 className="title-gradient-black" id="conhecimento"><strong>Conheça meus projetos:</strong></h4>        
+          <CardsProject data={ projectsList } />
+        </div>
+      </section>
       <Footer />
     </>
   )

@@ -5,10 +5,10 @@ class CardsProject extends Component {
   render() {
     const { data } = this.props;
     return (
-        <div className="boxTech">
+        <div className="box-child bounce box-child-initial">
           {
-            data.map((elem, index) =>
-              <span className="tamanhoc2" key={ elem }>{ elem }</span>
+            data.map((elem) =>
+              <span className="tags-low btn-black box-end-right-initial" key={ elem }>{ elem }</span>
             )
           }
         </div>
