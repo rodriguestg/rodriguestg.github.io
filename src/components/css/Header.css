@@ -1,6 +1,6 @@
 .index {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 40px 3%;
 }
 
@@ -8,11 +8,15 @@
   color: #30323D;
   font-weight: 500;
   text-decoration: none;
-  padding: 0 9px;
+  padding: 8px 20px;
+  background: #8b1f1212;
+  border-radius: 15px;
+  margin: 3px;
 }
 
 .topbar:hover {
-  color: #EB5C7C;
+  background-color: #8b1f12;
+  color: #FFDE80;
   transition: 1s;
 }
 
