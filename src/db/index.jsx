@@ -27,6 +27,19 @@ const projectsList = [
     elem: <Projects project="Trybe Futebol Clube!" />,
     web: '',
   },
+  {
+    name: 'App de Receitas!',
+    describe: 'Um app de receitas, que utiliza o que há de mais moderno dentro do ecossistema React: Hooks e Context API!',
+    text: 'Nele é possível: ver, buscar, filtrar, favoritar e acompanhar o progresso de preparação de receitas e drinks! A base de dados são 2 APIs distintas, uma para comidas e outra para bebidas. O layout tem como foco dispositivos móveis, dessa forma o protótipo foi desenvolvido para telas menores. Habilidades: Redux para gerenciar estado, a biblioteca React-Redux, a Context API do React para gerenciar estado, o React Hook useState, o React Hook useContext, o React Hook useEffect, Hooks customizados, Local Storage e Bootstrap.',
+    href: 'https://github.com/rodriguestg/gabriel-rodrigues-g17-app-receitas',
+    link: '/AppdeReceitas!',
+    demo: {
+      img: '',
+      video: '',
+    },
+    elem: <Projects project="App de Receitas!" />,
+    web: '',
+  },
 ];
 
 const projectsPI = [
