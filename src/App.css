@@ -153,4 +153,17 @@ body {
     padding: 20px 30px;
   }
 
+  #about-header-2 {
+    flex-direction: row!important;
+    justify-content: center!important;
+  }
+
+  #profile {
+    width: 300px!important;
+  }
+
+  .box-from-left-about {
+    padding: 0px!important;
+  }
+
 }
