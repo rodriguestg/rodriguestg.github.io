@@ -16,7 +16,7 @@ const projectsList = [
   },
   {
     name: 'Trybe Futebol Clube!',
-    describe: 'Simulção de um campeonato, com desenvolvimento de funções backend com servidor MySQL',
+    describe: 'Simulação de um campeonato, com desenvolvimento de funções backend com servidor MySQL',
     text: 'O TFC é um site informativo sobre partidas e classificações de futebol! Este projeto consiste em uma API (onde utilizei o método TDD) e também integrei - através do docker-compose - as aplicações para que elas funcionasse consumindo um banco de dados. Foi construído um back-end dockerizado utilizando modelagem de dados através do Sequelize. Respeitando regras de negócio que foram estabelcidas no projeto e a API sendo capaz de ser consumida por um front-end que já veio junto com o projeto. Para adicionar uma partida é necessário ter um token, portanto a pessoa deverá estar logada para fazer as alterações. O back-end implementa regras de negócio para popular adequadamente a tabela disponível no front-end que o usuária vê.',
     href: 'https://github.com/rodriguestg/gabriel-rodrigues-tfc',
     link: '/TrybeFutebolClube!',
