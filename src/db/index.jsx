@@ -8,11 +8,11 @@ const projectsList = [
     href: 'https://github.com/rodriguestg/gabriel-rodrigues-mongodb-commerce',
     link: '/MongoDB',
     demo: {
-      img: 'https://drive.google.com/file/d/1hmfImlEeixwfLTv7MUrzwLi_Y8kcg19x/preview',
-      video: 'aa',
+      img: '',
+      video: '',
     },
     elem: <Projects project="MongoDB Commerce" />,
-    web: 'aa',
+    web: '',
   },
   {
     name: 'Trybe Futebol Clube!',
@@ -25,19 +25,6 @@ const projectsList = [
       video: '',
     },
     elem: <Projects project="Trybe Futebol Clube!" />,
-    web: '',
-  },
-  {
-    name: 'MongoDB',
-    describe: 'Querys para buscar dados em um banco de dados NoSQL - MongoDb',
-    text: '',
-    href: 'https://github.com/rodriguestg/gabriel-rodrigues-mongodb-commerce',
-    link: '/MongoDB',
-    demo: {
-      img: '',
-      video: '',
-    },
-    elem: <Projects project="MongoDB" />,
     web: '',
   },
 ];
