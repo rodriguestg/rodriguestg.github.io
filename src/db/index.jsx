@@ -40,6 +40,19 @@ const projectsList = [
     elem: <Projects project="App de Receitas!" />,
     web: '',
   },
+  {
+    name: 'Front-End Online Store!',
+    describe: 'Buscar produtos por termos e categorias a partir de uma API do Mercado Livre.',
+    text: 'Este projeto existe uma versão simplificada, sem persistência no banco de dados, de uma loja online, foi um projeto desenvolvido em grupo de acordo com demandas definidas em um quadro Kanban, em um cenário próximo ao do mercado de trabalho.',
+    href: 'https://github.com/rodriguestg/gabriel-rodrigues-g25-frontend-online-store',
+    link: '/FrontEndOnlineStore!',
+    demo: {
+      img: '',
+      video: '',
+    },
+    elem: <Projects project="Front-End Online Store!" />,
+    web: '',
+  },
 ];
 
 const projectsPI = [
