@@ -20,9 +20,11 @@ class Projects extends Component {
             <span className="card-describe describe-project">{ render.describe }</span>
           </div>
           <div className="box-child" >
-            <div className="box-from-left">
+            {
+            render.demo.img ? <div className="box-from-left">
               <iframe src={ render.demo.img } title={ render.name } className="img-project" allowfullscreen/>
-            </div>
+            </div> : null
+            }
             <div className="box-end-right">
               <article className="text-project">{ render.text }</article>
               <div className="box-btn">

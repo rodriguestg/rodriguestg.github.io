@@ -42,13 +42,13 @@ const projectsList = [
   },
   {
     name: 'Carrinho de Compras',
-    describe: 'Buscar produtos por termos e categorias a partir de uma API do Mercado Livre.',
-    text: 'Este projeto existe uma versão simplificada, sem persistência no banco de dados, de uma loja online, foi um projeto desenvolvido em grupo de acordo com demandas definidas em um quadro Kanban, em um cenário próximo ao do mercado de trabalho.',
+    describe: 'Foi desenvolvido um carrinho de compras totalmente dinâmico!',
+    text: 'Este projeto consome dados diretamente de uma API do Mercado Livre! Ele foi posto em prática o desenvolvimento orientado a testes, o famoso TDD (Test Driven Development)! Contém os arquivos index.html, style.css e script.js, onde estão os códigos HTML, CSS e JavaScript, respectivamente. Nele são criamos elementos através do DOM, é adicionado produtos no carrinho de compras e salvos no LocalStorage, assim mesmo após atualizar, as compras pemanecem no carrinho.',
     href: 'https://github.com/rodriguestg/gabriel-rodrigues-shopping-cart',
     link: '/CarrinhoDeCompras',
     demo: {
-      img: 'https://drive.google.com/file/d/1-vFnIcqpK2y3VNMiPXiY3wSQU7fCr6Uq/view?usp=sharing',
-      video: '',
+      img: 'https://drive.google.com/file/d/1-vFnIcqpK2y3VNMiPXiY3wSQU7fCr6Uq/preview',
+      video: 'https://drive.google.com/file/d/1-vFnIcqpK2y3VNMiPXiY3wSQU7fCr6Uq/preview',
     },
     elem: <Projects project="Carrinho de Compras" />,
     web: '',
@@ -69,7 +69,7 @@ const projectsList = [
 ];
 
 const projectsPI = [
-  projectsList[0],
+  projectsList[3],
   projectsList[1],
   { name: 'Ver +', describe: 'Conheça alguns dos principais projetos já concluídos', link: '/portfolio' }
 ];
