@@ -66,6 +66,19 @@ const projectsList = [
     elem: <Projects project="Front-End Online Store" />,
     web: '',
   },
+  {
+    name: 'Todos os projetos',
+    describe: 'Veja todos os projetos em meu perfil no GitHub',
+    text: 'Clique em repositório, entre no meu perfil e veja todos os projetos',
+    href: 'https://github.com/rodriguestg',
+    link: '/all',
+    demo: {
+      img: '',
+      video: '',
+    },
+    elem: <Projects project="Todos os projetos" />,
+    web: '',
+  },
 ];
 
 const projectsPI = [
@@ -74,8 +87,8 @@ const projectsPI = [
   { name: 'Ver +', describe: 'Conheça alguns dos principais projetos já concluídos', link: '/portfolio' }
 ];
 
-const techs = ['JavaScript', 'TypeScript', 'React', 'Node.Js', 'MySQL', 'Jest', 'RTL', 'Redux', 'API Context', 'HTML5', 'CSS', 'GIT', 'Metodologias Ágeis', 'Moodle'];
-const skills = ['TDD', 'ORM', 'JWT', 'MongoDB', 'Python'];
+const techs = ['JavaScript', 'Python', 'TypeScript', 'React', 'Node.Js', 'MySQL', 'Jest', 'Express.js', 'API REST', 'Mocha', 'Chai', 'Sinon', 'RTL', 'Redux', 'API Context', 'HTML5', 'CSS', 'GIT', 'Metodologias Ágeis', 'Moodle', 'ORM', 'JWT', 'MongoDB'];
+const skills = ['TDD', 'Python'];
 
 export {
   projectsPI,
