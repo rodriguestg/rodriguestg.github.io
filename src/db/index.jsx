@@ -88,7 +88,7 @@ const projectsPI = [
 ];
 
 const techs = ['JavaScript', 'PHP', 'Python', 'TypeScript', 'Laravel', 'React', 'Node.Js', 'MySQL', 'WordPress', 'Elementor', 'WPBakery', 'Jest', 'Express.js', 'API REST', 'Mocha', 'Chai', 'Sinon', 'RTL', 'Redux', 'API Context', 'HTML5', 'CSS', 'GIT', 'Metodologias Ágeis', 'Moodle', 'PhotoShop', 'ORM', 'JWT', 'MongoDB', 'TDD', 'Python'];
-const skills = [''];
+const skills = ['PHP/Laravel, JavaScript e MySQL'];
 
 export {
   projectsPI,

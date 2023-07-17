@@ -4,7 +4,9 @@ body {
   color: white;
 }
 
-.box-title { padding-bottom: 20px; }
+.box-title {
+  padding-bottom: 20px;
+}
 
 .box-father {
   align-content: center;
@@ -71,57 +73,69 @@ body {
   flex-wrap: wrap;
 }
 
-.bounce { animation: bounce 2s; }
+.bounce {
+  animation: bounce 2s;
+}
+
 @keyframes bounce {
   from {
     transform: translateY(10px);
   }
+
   to {
     transform: translateY(0px);
   }
 }
 
-.fadein { animation: fadein 2s ; }
+.fadein {
+  animation: fadein 2s;
+}
+
 @keyframes fadein {
-  from { opacity: 0.8; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0.8;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
 @media screen and (max-width: 450px) {
   .title-gradient-black {
-    padding-left: 20px!important;
+    padding-left: 20px !important;
   }
 
   .box-about {
     flex-direction: column;
-    margin: 0px!important;
+    margin: 0px !important;
   }
 
   #about-header {
-    width: 85%!important;
+    width: 85% !important;
   }
 
   #title-name {
-    font-size: 48px!important;
+    font-size: 48px !important;
     text-align: left;
-    padding-bottom: 20px!important;
+    padding-bottom: 20px !important;
   }
 
   #description {
-    padding: 0px!important;
-    padding-bottom: 20px!important;
+    padding: 0px !important;
+    padding-bottom: 20px !important;
   }
 
   .index {
-    flex-wrap: wrap!important;
+    flex-wrap: wrap !important;
     font-size: 25px;
-    justify-content: center!important;
+    justify-content: center !important;
   }
 
   .box-from-left {
-    width: 95%!important;
-    height: 100%!important;
+    width: 95% !important;
+    height: 100% !important;
     padding: 10px 30px;
   }
 
@@ -140,11 +154,11 @@ body {
   }
 
   .box-footer {
-    height: 100%!important;
+    height: 100% !important;
   }
 
   .box-from-left-footer {
-    justify-content: left!important;
+    justify-content: left !important;
   }
 
   .footer-p {
@@ -153,16 +167,16 @@ body {
   }
 
   #about-header-2 {
-    flex-direction: row!important;
-    justify-content: center!important;
+    flex-direction: row !important;
+    justify-content: center !important;
   }
 
   #profile {
-    width: 300px!important;
+    width: 300px !important;
   }
 
   .box-from-left-about {
-    padding: 0px!important;
+    padding: 0px !important;
   }
 
   .box-title {
@@ -177,6 +191,12 @@ body {
 
   .box-btn a {
     padding: 17px;
+  }
+
+  .description-about {
+    color: #4b4b4b;
+    font-size: 24px;
+    line-height: 40px;
   }
 
 }

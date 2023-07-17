@@ -31,11 +31,11 @@ class AboutPage extends Component {
 
                 Sou o Gabriel Rodrigues, natural de Mauá (SP), eu amo praticar esportes, como futebol e natação, gosto de ter sempre um bom livro me acompanhando, de planejar boas viagens e participar de eventos radicais, além de amar design e códigos!
 
-                Sou certificado como Desenvolvedor Front-End pela Trybe, tendo o conhecimento das tecnologias de Javascript, React, RTL, Jest, Redux, API Context, CSS, HTML, GIT e Metodologias Ágeis.
+                Sou certificado como Desenvolvedor Web Full-Stack pela Trybe, tendo o conhecimento das tecnologias de front-end e back-end em Javascript, PHP, Laravel, React, RTL, Jest, Redux, API Context, CSS, HTML, Python, Algoritmos, POO, GIT, Docker, MySQL, Arquitetura de Software, Node.js, ORM, JWT, Typescript, MongoDB e Metodologias Ágeis.
 
-                Atualmente tenho estudado Desenvolvimento Web Full-Stack na Trybe, onde tenho complementado minhas tecnologias aprendendo e praticando bastante Javascript, TDD, Docker, MySQL, Arquitetura de Software, Node, Node.js: ORM, JWT, Typescript, MongoDB e Python.
+                Em meu trabalho atual tenho gerenciado um sistema em PHP e Laravel, complementando minhas tecnologias utilizando Ajax e jQuery.
 
-                Tenho também 8 anos de experiência como designer e administrador Moodle (plataforma EAD), através de agencias e plataformas de hospedagem e suporte EAD.
+                Iniciei em 2014 como designer e administrador Moodle (plataforma EAD), através de agencias e plataformas de hospedagem e suporte EAD.
                 <br />
                 <a className="tags-low btn-black box-end-right-initial" href="https://github.com/rodriguestg/">GitHub</a>
                 <a className="tags-low btn-black box-end-right-initial" href="https://www.behance.net/gabrielrodris/">Behance</a>

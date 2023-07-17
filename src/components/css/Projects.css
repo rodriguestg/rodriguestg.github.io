@@ -29,9 +29,10 @@
 
 .text-project {
   color: #535353;
-  font-size: 19px;
-  text-align: justify;
+  font-size: 23px;
   font-weight: 400;
+  text-align: justify;
+  line-height: 32px;
 }
 
 .box-btn {
@@ -45,5 +46,5 @@
 }
 
 .min-bottom {
-  margin-bottom: 0px!important;
+  margin-bottom: 0px !important;
 }
