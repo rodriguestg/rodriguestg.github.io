@@ -10,21 +10,21 @@ import profile from '../pages/images/20220212223809_IMG_97882.png';
 class AboutPage extends Component {
   render() {
     return (
-    <>
-      <Header />
-      <section className="box-father bounce">
-      <div id="about-header-2">
-        <img id="profile" src={profile} alt="Gabriel Rodrigues" />
-        <h1 id="title-name">Gabriel Rodrigues</h1>
-        <p id="description">
-          <span className="bold">Vamos se conectar? </span>
-          <a
-          href="https://www.linkedin.com/in/gabriel-rodrigues-t"
-          target="_blank"
-          rel="noopener noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin" id="icon" />
-          </a>.
-        </p>
+      <>
+        <Header />
+        <section className="box-father bounce">
+          <div id="about-header-2">
+            <img id="profile" src={profile} alt="Gabriel Rodrigues" />
+            <h1 id="title-name">Gabriel Rodrigues</h1>
+            <p id="description">
+              <span className="bold">Vamos se conectar? </span>
+              <a
+                href="https://www.linkedin.com/in/gabriel-rodrigues-t"
+                target="_blank"
+                rel="noopener noreferrer">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="linkedin" id="icon" />
+              </a>.
+            </p>
             <div className="box-from-left">
               <article className="text-project box-from-left-about">
                 Olá, seja bem-vindo(a)!
@@ -43,21 +43,21 @@ class AboutPage extends Component {
             </div>
           </div>
         </section>
-      <section className="box-father fadein">
-        <div className="box-child">
-          <div className="box-from-left box-from-left-initial">
-            <h4 className="title-gradient-black" id="conhecimento"><strong>Tenho conhecimento em:</strong></h4>      
-              <CardsSkills data={ techs } />
+        <section className="box-father fadein">
+          <div className="box-child">
+            <div className="box-from-left box-from-left-initial">
+              <h4 className="title-gradient-black" id="conhecimento"><strong>Tenho conhecimento em:</strong></h4>
+              <CardsSkills data={techs} />
+            </div>
+            <div className="box-end-right box-end-right-initial">
+              <h4 className="title-gradient-black" id="estudo">Atualmente estudo na @betrybe os conteúdos de:</h4>
+              <CardsSkills data={skills} />
+            </div>
           </div>
-          <div className="box-end-right box-end-right-initial">
-            <h4 className="title-gradient-black" id="estudo">Atualmente estudo na @betrybe os conteúdos de:</h4>
-              <CardsSkills data={ skills } />
-          </div>
-        </div>
-      </section>
-      <Footer />
-    </>
-  )
+        </section>
+        <Footer />
+      </>
+    )
   }
 }
 

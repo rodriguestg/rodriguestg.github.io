@@ -87,8 +87,8 @@ const projectsPI = [
   { name: 'Ver +', describe: 'Conheça alguns dos principais projetos já concluídos', link: '/portfolio' }
 ];
 
-const techs = ['JavaScript', 'Python', 'TypeScript', 'React', 'Node.Js', 'MySQL', 'Jest', 'Express.js', 'API REST', 'Mocha', 'Chai', 'Sinon', 'RTL', 'Redux', 'API Context', 'HTML5', 'CSS', 'GIT', 'Metodologias Ágeis', 'Moodle', 'ORM', 'JWT', 'MongoDB'];
-const skills = ['TDD', 'Python'];
+const techs = ['JavaScript', 'PHP', 'Python', 'TypeScript', 'Laravel', 'React', 'Node.Js', 'MySQL', 'WordPress', 'Elementor', 'WPBakery', 'Jest', 'Express.js', 'API REST', 'Mocha', 'Chai', 'Sinon', 'RTL', 'Redux', 'API Context', 'HTML5', 'CSS', 'GIT', 'Metodologias Ágeis', 'Moodle', 'PhotoShop', 'ORM', 'JWT', 'MongoDB', 'TDD', 'Python'];
+const skills = [''];
 
 export {
   projectsPI,
