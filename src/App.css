@@ -102,6 +102,13 @@ body {
 }
 
 
+.description-about {
+  color: #4b4b4b;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+
 @media screen and (max-width: 450px) {
   .title-gradient-black {
     padding-left: 20px !important;
@@ -195,8 +202,9 @@ body {
 
   .description-about {
     color: #4b4b4b;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 40px;
+    text-align: justify;
   }
 
 }
